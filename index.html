@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>my first page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+
+	<header>
+		<div id="logo"></div>
+	<!-- listing -->
+		<ul class="nav_menu">
+			<li><a href="index.html">Home</a></li> &nbsp;
+			<li><a href="contactus.html">contact us</a></li> &nbsp;
+			<li><a href="About me.html">About me</a></li>
+		</ul>
+		
+	</header>
+	</div><br>
+
+	<!-- aside -->
+	<h1>The aside element</h1>
+
+	<p class="">My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+	<aside class="aside-style">
+  		<h4>Epcot Center</h4>
+  		<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  		</p>
+	</aside>
+
+	<!-- article -->
+	<article class="all-browsers">
+  		<h1>Most Popular Browsers</h1>
+		<article class="browser">
+  			<h2>Google Chrome</h2>
+  			<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+		</article>
+
+		<article class="browser">
+  			<h2>Mozilla Firefox</h2>
+  			<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+		</article>
+
+		<article class="browser">
+  			<h2>Microsoft Edge</h2>
+  			<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+		</article>
+	</article><br>
+
+	<!-- blockquote -->
+	<p>Here is a quote from WWF's website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+		For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+	</blockquote><br>
+	<!-- dd,dt,dl -->
+	<p>A <strong>dl,dt,dd</strong> element is displayed like this:</p>
+
+	<dl>
+  		<dt>Coffee</dt>
+  		<dd>Black hot drink</dd>
+  		<dt>Milk</dt>
+  		<dd>White cold drink</dd>
+	</dl><br>
+	<!-- fieldset/form -->
+	<h1>The fieldset element</h1>
+
+	<form action="process.php" metthod="POST">
+		<fieldset>
+  			<legend>Personal Details:</legend>
+  			<div>
+  				<label> First Name </label>
+  				<input type="text" name="firstName" placeholder="Enter first Name">
+  			</div><br>
+  			<div>
+  				<label> Last Name </label>
+  				<input type="text" name="lastName" placeholder="Enter last Name">
+  			</div><br>
+
+  			<div>
+  				<label> Email </label>
+  				<input type="email" name="email" placeholder="xyz@something.com">
+  			</div><br>
+  			<div>
+  				<label> Gender </label>
+ 				<!-- select, option -->
+  				<select name="gender">
+  					<option value="male" selected>Male</option>
+  					<option value="female" >Female</option>
+  					<option value="other" >Other</option>
+  				</select>
+  			</div>
+  			<br>
+  			<div>
+  				<label>Age:</label>
+  				<input type="number" name="age" value="20">
+  			</div><br>
+  			<div>
+  				<label>Birthday</label>
+  				<input type="date" name="birthday">
+  			</div>
+  			<br>
+  			<input class="submit-style" type="submit" name="submit" value="Submit">
+
+ 		</fieldset>
+	</form>
+
+	
+	<!-- section -->
+	<section>
+		<h2>Favorite food </h2>
+		<ul>
+			<li>Biryani</li>
+			<li>tea/coffee</li>
+			<li>banana</li>
+		</ul>
+	</section>
+	<!-- paragraph -->
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt<strong> labore et dolore magna aliqua</strong> Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<!-- table -->
+	<table border="1">
+		<tr><td>one</td><td>two</td><td>three</td></tr>
+		<tr><td>four</td><td>Five</td><td>Six</td></tr>
+		<tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+	</table><br>
+	
+	<table border="1">
+		
+		<thead>
+			<tr>
+				<th> Name </th>
+				<th> Email </th>
+				<th> Age </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td> Danish </td>
+				<td> skdanish1999@gmail.com </td>
+				<td> 20 </td>
+			</tr>
+			<tr>
+				<td> mobi </td>
+				<td> mobi1999@gmail.com </td>
+				<td> 20 </td>
+			</tr>
+			<tr>
+				<td> Khatri </td>
+				<td> n.khatri1999@gmail.com </td>
+				<td> 20 </td>
+			</tr>
+		</tbody>
+		
+	</table><br>
+	<table border="1">
+		<thead>
+			<tr>
+				<th> Child Name </th>
+				<th> Parents Name </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2"> cathorine </td><td> michale </td>
+			</tr>
+			<tr>
+				<td> colleen </td>
+			</tr>
+			<tr>
+				<td rowspan="2"> Mukesh </td><td>Binod</td>
+			</tr>
+			<tr>
+				<td> papa ki pari </td>
+			</tr>
+
+		</tbody>
+	</table><br>
+
+	<!-- column span -->
+	<table border="3">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th colspan="2" text-align:center>Telephone</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Danish</td>
+				<td>2334343</td>
+				<td>5765865</td>
+			</tr>
+		</tbody>
+	</table><br>
+	<!-- row span -->
+	<table border="3">
+		<tr width="100%">
+			<th>Name</th>
+			<td>Danish</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone</th>
+			<td>66658588</td>
+		</tr>
+		<tr>
+			<td>33394855</td>
+		</tr>
+		
+	</table>
+	<!-- small -->
+	<p><small>* T & C apply</small></p>
+
+	<!-- span -->
+	<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+	<!-- subscript and superscript -->
+	<p>chemical formula of water is H<sub>2</sub>O.</p>
+	<p>(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab.</p>
+
+	<!-- code -->
+	<p>The HTML <code>button</code> tag defines a clickable button.</p>
+	<hr>
+
+	<!-- details -->
+	<details class='no-outline'>
+		<summary> My childhood </summary>
+		<p>i was born in Bihar i completed my 12th from Mumbai. </p>
+	</details>
+	
+	<!-- abbreviation -->
+	<br>
+	<p>today is <abbr title="Sunday">Sun</abbr>, so tomorrow will be <abbr title="Monday">Mon</abbr>.</p>
+
+	<!-- progress and meter -->
+	<p progress>chance to win RCB IPL(2020) is 20%</p>
+	<progress value="20" max="100"> 60% </progress>
+	<p>chance to win CSK IPL(2020) is 80%</p>	
+	<meter min="0" max="100" value="80"> 80% </meter><br>
+	
+	
+	<!-- video -->
+
+	<video width="360"controls poster="image1.png">
+ 		<source src="movie1.mp4" type="video/mp4">
+   		Your browser does not support the video tag.
+	</video><br>
+
+	<!-- image -->
+	<figure>
+		<a href="http://www.youtube.com"><img src="screenshot.png" width="100px" alt="Author"></a>
+		<figcaption>    Danish    </figcaption>	
+		<cite>this page created by Danish in 2020</cite>
+	</figure>
+
+	<!-- address_tag -->
+	<address>
+		Written by <a href="mailto: skdanish1999@gmial.com">Danish shaikh</a>.<br> 
+		Visit us at:<br>
+		Example.com<br>
+		Box 564, Disneyland<br>
+		USA
+	</address><br>
+
+	<!-- text area -->
+	<form action="process.php" metthod="POST">
+		<fieldset>		
+			<legend> Feedback </legend>
+			<textarea name="Feedback"></textarea>
+		</fieldset>
+
+	</form><br>
+
+	<!-- footer -->
+	<footer>
+
+		&copy; All right reserved 2020 <br>
+	</footer>
+	
+
+	
+</body>
+</html>
